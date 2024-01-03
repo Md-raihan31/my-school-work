@@ -1,0 +1,15 @@
+num1 = int(input('Enter the first number'))
+num2 = int(input('Enter the second number'))
+op = input('Enter your calculation sing [+,-,*,/,%]:')
+if op == '+':
+  result = num1 + num2
+elif op == '-':
+ result = num1 - num2
+elif op == '*':
+ result = num1 * num2
+elif op == '/':
+ result = num1 / num2
+elif op == '%':
+ result = num1 % num2
+else : print('Operator is not correct. Result can not be printed')
+print(num1,op,num2,'=',result)
